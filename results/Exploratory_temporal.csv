@@ -1,0 +1,548 @@
+section,item,metric,value
+timestamp_quality,target_series,stations,120.0
+timestamp_quality,target_series,median_coverage,0.8615806764257934
+timestamp_quality,target_series,median_missing_days,89.5
+timestamp_quality,target_series,median_max_gap_days,32.0
+timestamp_quality,modelling_table,stations,107.0
+timestamp_quality,modelling_table,median_coverage,0.5169385194479298
+timestamp_quality,modelling_table,median_missing_days,417.0
+timestamp_quality,modelling_table,median_max_gap_days,31.0
+timestamp_quality,GEE,share_of_calendar_days_with_record,0.6968549796156086
+timestamp_quality,modelling_table,days_with_no_station,1120
+timestamp_quality_station,AIX CENTRE ECOLE ART,n_days,458.0
+timestamp_quality_station,AIX CENTRE ECOLE ART,coverage,0.5746549560853199
+timestamp_quality_station,AIX CENTRE ECOLE ART,max_gap_days,11.0
+timestamp_quality_station,AIX ROY RENE,n_days,198.0
+timestamp_quality_station,AIX ROY RENE,coverage,0.577259475218659
+timestamp_quality_station,AIX ROY RENE,max_gap_days,15.0
+timestamp_quality_station,ALBALAT DELS TARONGERS,n_days,798.0
+timestamp_quality_station,ALBALAT DELS TARONGERS,coverage,0.3684210526315789
+timestamp_quality_station,ALBALAT DELS TARONGERS,max_gap_days,151.0
+timestamp_quality_station,ALCANTARILLA,n_days,268.0
+timestamp_quality_station,ALCANTARILLA,coverage,0.6568627450980392
+timestamp_quality_station,ALCANTARILLA,max_gap_days,14.0
+timestamp_quality_station,ALCORA,n_days,761.0
+timestamp_quality_station,ALCORA,coverage,0.3611770289511153
+timestamp_quality_station,ALCORA,max_gap_days,136.0
+timestamp_quality_station,ALGAR DE PALÀNCIA,n_days,771.0
+timestamp_quality_station,ALGAR DE PALÀNCIA,coverage,0.33189840723202757
+timestamp_quality_station,ALGAR DE PALÀNCIA,max_gap_days,175.0
+timestamp_quality_station,ALMASSORA-C. P. OCHANDO,n_days,739.0
+timestamp_quality_station,ALMASSORA-C. P. OCHANDO,coverage,0.35996103263516804
+timestamp_quality_station,ALMASSORA-C. P. OCHANDO,max_gap_days,136.0
+timestamp_quality_station,ALUMBRES,n_days,197.0
+timestamp_quality_station,ALUMBRES,coverage,0.6816608996539792
+timestamp_quality_station,ALUMBRES,max_gap_days,14.0
+timestamp_quality_station,AMU_St Jerome_building,n_days,166.0
+timestamp_quality_station,AMU_St Jerome_building,coverage,0.694560669456067
+timestamp_quality_station,AMU_St Jerome_building,max_gap_days,5.0
+timestamp_quality_station,AMU_St Jerome_road,n_days,178.0
+timestamp_quality_station,AMU_St Jerome_road,coverage,0.7063492063492064
+timestamp_quality_station,AMU_St Jerome_road,max_gap_days,5.0
+timestamp_quality_station,AMU_St Jerome_roof,n_days,175.0
+timestamp_quality_station,AMU_St Jerome_roof,coverage,0.7028112449799196
+timestamp_quality_station,AMU_St Jerome_roof,max_gap_days,5.0
+timestamp_quality_station,Albors - Valencia,n_days,57.0
+timestamp_quality_station,Albors - Valencia,coverage,0.57
+timestamp_quality_station,Albors - Valencia,max_gap_days,8.0
+timestamp_quality_station,Armilla Center,n_days,184.0
+timestamp_quality_station,Armilla Center,coverage,0.6456140350877193
+timestamp_quality_station,Armilla Center,max_gap_days,14.0
+timestamp_quality_station,"Avinguda Meridiana, Sagerra",n_days,52.0
+timestamp_quality_station,"Avinguda Meridiana, Sagerra",coverage,0.5473684210526316
+timestamp_quality_station,"Avinguda Meridiana, Sagerra",max_gap_days,7.0
+timestamp_quality_station,BARCELONA (PARC DE LA VALL D'HEBRON),n_days,62.0
+timestamp_quality_station,BARCELONA (PARC DE LA VALL D'HEBRON),coverage,0.45925925925925926
+timestamp_quality_station,BARCELONA (PARC DE LA VALL D'HEBRON),max_gap_days,7.0
+timestamp_quality_station,BENICASSIM,n_days,770.0
+timestamp_quality_station,BENICASSIM,coverage,0.35063752276867033
+timestamp_quality_station,BENICASSIM,max_gap_days,136.0
+timestamp_quality_station,BURRIANA,n_days,757.0
+timestamp_quality_station,BURRIANA,coverage,0.349815157116451
+timestamp_quality_station,BURRIANA,max_gap_days,151.0
+timestamp_quality_station,Barcelona #1,n_days,581.0
+timestamp_quality_station,Barcelona #1,coverage,0.5262681159420289
+timestamp_quality_station,Barcelona #1,max_gap_days,35.0
+timestamp_quality_station,Barcelona #2,n_days,647.0
+timestamp_quality_station,Barcelona #2,coverage,0.6103773584905661
+timestamp_quality_station,Barcelona #2,max_gap_days,9.0
+timestamp_quality_station,Barcelona #3,n_days,46.0
+timestamp_quality_station,Barcelona #3,coverage,0.5168539325842697
+timestamp_quality_station,Barcelona #3,max_gap_days,6.0
+timestamp_quality_station,Barcelona - Camp d'en Grassot,n_days,4.0
+timestamp_quality_station,Barcelona - Camp d'en Grassot,coverage,1.0
+timestamp_quality_station,Barcelona - Camp d'en Grassot,max_gap_days,1.0
+timestamp_quality_station,Barcelona - Porta - Can Dragó,n_days,364.0
+timestamp_quality_station,Barcelona - Porta - Can Dragó,coverage,0.591869918699187
+timestamp_quality_station,Barcelona - Porta - Can Dragó,max_gap_days,31.0
+timestamp_quality_station,"C. Restoy, 51, Almeria, Spain",n_days,21.0
+timestamp_quality_station,"C. Restoy, 51, Almeria, Spain",coverage,0.04525862068965517
+timestamp_quality_station,"C. Restoy, 51, Almeria, Spain",max_gap_days,433.0
+timestamp_quality_station,CAMPAMENTO,n_days,619.0
+timestamp_quality_station,CAMPAMENTO,coverage,0.4437275985663082
+timestamp_quality_station,CAMPAMENTO,max_gap_days,117.0
+timestamp_quality_station,CAMPANILLAS CIFA,n_days,628.0
+timestamp_quality_station,CAMPANILLAS CIFA,coverage,0.6362715298885512
+timestamp_quality_station,CAMPANILLAS CIFA,max_gap_days,14.0
+timestamp_quality_station,CARRANQUE,n_days,784.0
+timestamp_quality_station,CARRANQUE,coverage,0.5358851674641149
+timestamp_quality_station,CARRANQUE,max_gap_days,117.0
+timestamp_quality_station,CASTELLO CEIP LA MARINA,n_days,476.0
+timestamp_quality_station,CASTELLO CEIP LA MARINA,coverage,0.6397849462365591
+timestamp_quality_station,CASTELLO CEIP LA MARINA,max_gap_days,12.0
+timestamp_quality_station,CASTELLÓ-GRAU,n_days,683.0
+timestamp_quality_station,CASTELLÓ-GRAU,coverage,0.4190184049079755
+timestamp_quality_station,CASTELLÓ-GRAU,max_gap_days,310.0
+timestamp_quality_station,CASTELLÓ-PENYETA,n_days,570.0
+timestamp_quality_station,CASTELLÓ-PENYETA,coverage,0.6347438752783965
+timestamp_quality_station,CASTELLÓ-PENYETA,max_gap_days,9.0
+timestamp_quality_station,CENCA1,n_days,1037.0
+timestamp_quality_station,CENCA1,coverage,0.485941893158388
+timestamp_quality_station,CENCA1,max_gap_days,114.0
+timestamp_quality_station,CENMO1,n_days,1042.0
+timestamp_quality_station,CENMO1,coverage,0.48196114708603144
+timestamp_quality_station,CENMO1,max_gap_days,114.0
+timestamp_quality_station,CENSA3,n_days,614.0
+timestamp_quality_station,CENSA3,coverage,0.5754451733833177
+timestamp_quality_station,CENSA3,max_gap_days,16.0
+timestamp_quality_station,COLEGIO (S1),n_days,204.0
+timestamp_quality_station,COLEGIO (S1),coverage,0.6035502958579881
+timestamp_quality_station,COLEGIO (S1),max_gap_days,37.0
+timestamp_quality_station,CORTIJILLOS,n_days,686.0
+timestamp_quality_station,CORTIJILLOS,coverage,0.49530685920577616
+timestamp_quality_station,CORTIJILLOS,max_gap_days,117.0
+timestamp_quality_station,Can Bruixa,n_days,70.0
+timestamp_quality_station,Can Bruixa,coverage,0.21406727828746178
+timestamp_quality_station,Can Bruixa,max_gap_days,197.0
+timestamp_quality_station,E2: ALCORNOCALES,n_days,570.0
+timestamp_quality_station,E2: ALCORNOCALES,coverage,0.38461538461538464
+timestamp_quality_station,E2: ALCORNOCALES,max_gap_days,117.0
+timestamp_quality_station,E4:RINCONCILLO,n_days,644.0
+timestamp_quality_station,E4:RINCONCILLO,coverage,0.45384073291050037
+timestamp_quality_station,E4:RINCONCILLO,max_gap_days,117.0
+timestamp_quality_station,E7:EL ZABAL,n_days,552.0
+timestamp_quality_station,E7:EL ZABAL,coverage,0.44805194805194803
+timestamp_quality_station,E7:EL ZABAL,max_gap_days,117.0
+timestamp_quality_station,ECONOMATO,n_days,614.0
+timestamp_quality_station,ECONOMATO,coverage,0.4433212996389892
+timestamp_quality_station,ECONOMATO,max_gap_days,117.0
+timestamp_quality_station,ELDA-LACY,n_days,727.0
+timestamp_quality_station,ELDA-LACY,coverage,0.37825182101977106
+timestamp_quality_station,ELDA-LACY,max_gap_days,136.0
+timestamp_quality_station,Estación de Franca ,n_days,104.0
+timestamp_quality_station,Estación de Franca ,coverage,0.52
+timestamp_quality_station,Estación de Franca ,max_gap_days,7.0
+timestamp_quality_station,FR02013,n_days,445.0
+timestamp_quality_station,FR02013,coverage,0.4630593132154006
+timestamp_quality_station,FR02013,max_gap_days,116.0
+timestamp_quality_station,FR02020,n_days,625.0
+timestamp_quality_station,FR02020,coverage,0.5135579293344289
+timestamp_quality_station,FR02020,max_gap_days,117.0
+timestamp_quality_station,FR03006,n_days,260.0
+timestamp_quality_station,FR03006,coverage,0.2529182879377432
+timestamp_quality_station,FR03006,max_gap_days,127.0
+timestamp_quality_station,FR03014,n_days,426.0
+timestamp_quality_station,FR03014,coverage,0.44375
+timestamp_quality_station,FR03014,max_gap_days,114.0
+timestamp_quality_station,FR03029,n_days,253.0
+timestamp_quality_station,FR03029,coverage,0.24779627815866798
+timestamp_quality_station,FR03029,max_gap_days,127.0
+timestamp_quality_station,FR03030,n_days,283.0
+timestamp_quality_station,FR03030,coverage,0.30561555075593955
+timestamp_quality_station,FR03030,max_gap_days,76.0
+timestamp_quality_station,FR03043,n_days,269.0
+timestamp_quality_station,FR03043,coverage,0.26141885325558795
+timestamp_quality_station,FR03043,max_gap_days,127.0
+timestamp_quality_station,Fos Les Carabins,n_days,441.0
+timestamp_quality_station,Fos Les Carabins,coverage,0.5526315789473685
+timestamp_quality_station,Fos Les Carabins,max_gap_days,15.0
+timestamp_quality_station,GARDANNE,n_days,412.0
+timestamp_quality_station,GARDANNE,coverage,0.5169385194479298
+timestamp_quality_station,GARDANNE,max_gap_days,15.0
+timestamp_quality_station,GRANADA - NORTE,n_days,734.0
+timestamp_quality_station,GRANADA - NORTE,coverage,0.5461309523809523
+timestamp_quality_station,GRANADA - NORTE,max_gap_days,117.0
+timestamp_quality_station,GUADARRANQUE,n_days,682.0
+timestamp_quality_station,GUADARRANQUE,coverage,0.4970845481049563
+timestamp_quality_station,GUADARRANQUE,max_gap_days,117.0
+timestamp_quality_station,Gibraltar,n_days,36.0
+timestamp_quality_station,Gibraltar,coverage,0.6666666666666666
+timestamp_quality_station,Gibraltar,max_gap_days,7.0
+timestamp_quality_station,Granollers,n_days,233.0
+timestamp_quality_station,Granollers,coverage,0.5753086419753086
+timestamp_quality_station,Granollers,max_gap_days,10.0
+timestamp_quality_station,HOSTELERÍA,n_days,643.0
+timestamp_quality_station,HOSTELERÍA,coverage,0.4886018237082067
+timestamp_quality_station,HOSTELERÍA,max_gap_days,118.0
+timestamp_quality_station,"Hospitalet de Llobregat, l'",n_days,46.0
+timestamp_quality_station,"Hospitalet de Llobregat, l'",coverage,0.5609756097560976
+timestamp_quality_station,"Hospitalet de Llobregat, l'",max_gap_days,6.0
+timestamp_quality_station,LA ALJORRA,n_days,528.0
+timestamp_quality_station,LA ALJORRA,coverage,0.6830530401034929
+timestamp_quality_station,LA ALJORRA,max_gap_days,16.0
+timestamp_quality_station,LA LÍNEA,n_days,607.0
+timestamp_quality_station,LA LÍNEA,coverage,0.44113372093023256
+timestamp_quality_station,LA LÍNEA,max_gap_days,117.0
+timestamp_quality_station,LOS BARRIOS,n_days,709.0
+timestamp_quality_station,LOS BARRIOS,coverage,0.46767810026385226
+timestamp_quality_station,LOS BARRIOS,max_gap_days,117.0
+timestamp_quality_station,La Sagrera,n_days,262.0
+timestamp_quality_station,La Sagrera,coverage,0.27666314677930304
+timestamp_quality_station,La Sagrera,max_gap_days,419.0
+timestamp_quality_station,MADREVIEJA,n_days,706.0
+timestamp_quality_station,MADREVIEJA,coverage,0.4971830985915493
+timestamp_quality_station,MADREVIEJA,max_gap_days,117.0
+timestamp_quality_station,MARSEILLE 5 AVENUES,n_days,471.0
+timestamp_quality_station,MARSEILLE 5 AVENUES,coverage,0.5909661229611042
+timestamp_quality_station,MARSEILLE 5 AVENUES,max_gap_days,14.0
+timestamp_quality_station,MARSEILLE RABATAU,n_days,380.0
+timestamp_quality_station,MARSEILLE RABATAU,coverage,0.4767879548306148
+timestamp_quality_station,MARSEILLE RABATAU,max_gap_days,20.0
+timestamp_quality_station,MARSEILLE ST LOUIS,n_days,472.0
+timestamp_quality_station,MARSEILLE ST LOUIS,coverage,0.5922208281053952
+timestamp_quality_station,MARSEILLE ST LOUIS,max_gap_days,14.0
+timestamp_quality_station,MEDITERRÁNEO,n_days,742.0
+timestamp_quality_station,MEDITERRÁNEO,coverage,0.5529061102831595
+timestamp_quality_station,MEDITERRÁNEO,max_gap_days,115.0
+timestamp_quality_station,MOLINA DE SEGURA,n_days,489.0
+timestamp_quality_station,MOLINA DE SEGURA,coverage,0.657258064516129
+timestamp_quality_station,MOLINA DE SEGURA,max_gap_days,14.0
+timestamp_quality_station,MOMPEAN,n_days,894.0
+timestamp_quality_station,MOMPEAN,coverage,0.4785867237687366
+timestamp_quality_station,MOMPEAN,max_gap_days,298.0
+timestamp_quality_station,Marignane,n_days,456.0
+timestamp_quality_station,Marignane,coverage,0.5922077922077922
+timestamp_quality_station,Marignane,max_gap_days,11.0
+timestamp_quality_station,Martorell,n_days,38.0
+timestamp_quality_station,Martorell,coverage,0.4634146341463415
+timestamp_quality_station,Martorell,max_gap_days,15.0
+timestamp_quality_station,Mollet del Vallès,n_days,673.0
+timestamp_quality_station,Mollet del Vallès,coverage,0.6096014492753623
+timestamp_quality_station,Mollet del Vallès,max_gap_days,10.0
+timestamp_quality_station,ONTINYENT,n_days,447.0
+timestamp_quality_station,ONTINYENT,coverage,0.13942607610729882
+timestamp_quality_station,ONTINYENT,max_gap_days,315.0
+timestamp_quality_station,PALACIO CONGRESOS,n_days,370.0
+timestamp_quality_station,PALACIO CONGRESOS,coverage,0.4399524375743163
+timestamp_quality_station,PALACIO CONGRESOS,max_gap_days,117.0
+timestamp_quality_station,PUENTE MAYORGA,n_days,617.0
+timestamp_quality_station,PUENTE MAYORGA,coverage,0.4573758339510749
+timestamp_quality_station,PUENTE MAYORGA,max_gap_days,117.0
+timestamp_quality_station,Passeig de Fabra i Puig,n_days,207.0
+timestamp_quality_station,Passeig de Fabra i Puig,coverage,0.6310975609756098
+timestamp_quality_station,Passeig de Fabra i Puig,max_gap_days,7.0
+timestamp_quality_station,Perafort,n_days,632.0
+timestamp_quality_station,Perafort,coverage,0.573502722323049
+timestamp_quality_station,Perafort,max_gap_days,125.0
+timestamp_quality_station,Polinya,n_days,125.0
+timestamp_quality_station,Polinya,coverage,0.5434782608695652
+timestamp_quality_station,Polinya,max_gap_days,7.0
+timestamp_quality_station,QUART DE POBLET,n_days,717.0
+timestamp_quality_station,QUART DE POBLET,coverage,0.37266112266112267
+timestamp_quality_station,QUART DE POBLET,max_gap_days,127.0
+timestamp_quality_station,RONDA SUR,n_days,343.0
+timestamp_quality_station,RONDA SUR,coverage,0.6483931947069943
+timestamp_quality_station,RONDA SUR,max_gap_days,14.0
+timestamp_quality_station,Reus,n_days,49.0
+timestamp_quality_station,Reus,coverage,0.5975609756097561
+timestamp_quality_station,Reus,max_gap_days,7.0
+timestamp_quality_station,Rognac les Brets,n_days,399.0
+timestamp_quality_station,Rognac les Brets,coverage,0.5006273525721455
+timestamp_quality_station,Rognac les Brets,max_gap_days,12.0
+timestamp_quality_station,Rosia Road,n_days,4.0
+timestamp_quality_station,Rosia Road,coverage,0.3333333333333333
+timestamp_quality_station,Rosia Road,max_gap_days,4.0
+timestamp_quality_station,SAGUNT CEA,n_days,797.0
+timestamp_quality_station,SAGUNT CEA,coverage,0.3669429097605893
+timestamp_quality_station,SAGUNT CEA,max_gap_days,136.0
+timestamp_quality_station,SAGUNT PORT,n_days,593.0
+timestamp_quality_station,SAGUNT PORT,coverage,0.6753986332574032
+timestamp_quality_station,SAGUNT PORT,max_gap_days,19.0
+timestamp_quality_station,SAN BASILIO,n_days,578.0
+timestamp_quality_station,SAN BASILIO,coverage,0.6613272311212814
+timestamp_quality_station,SAN BASILIO,max_gap_days,14.0
+timestamp_quality_station,SAN ROQUE (S6),n_days,645.0
+timestamp_quality_station,SAN ROQUE (S6),coverage,0.46269727403156385
+timestamp_quality_station,SAN ROQUE (S6),max_gap_days,117.0
+timestamp_quality_station,Sant Adrià de Besòs,n_days,44.0
+timestamp_quality_station,Sant Adrià de Besòs,coverage,0.5365853658536586
+timestamp_quality_station,Sant Adrià de Besòs,max_gap_days,8.0
+timestamp_quality_station,Sant Andreu de la Barca,n_days,279.0
+timestamp_quality_station,Sant Andreu de la Barca,coverage,0.2531760435571688
+timestamp_quality_station,Sant Andreu de la Barca,max_gap_days,591.0
+timestamp_quality_station,Sant Francesc,n_days,15.0
+timestamp_quality_station,Sant Francesc,coverage,0.8823529411764706
+timestamp_quality_station,Sant Francesc,max_gap_days,3.0
+timestamp_quality_station,Santa Perpètua de Mogoda,n_days,238.0
+timestamp_quality_station,Santa Perpètua de Mogoda,coverage,0.5876543209876544
+timestamp_quality_station,Santa Perpètua de Mogoda,max_gap_days,10.0
+timestamp_quality_station,TORRENT-EL VEDAT,n_days,89.0
+timestamp_quality_station,TORRENT-EL VEDAT,coverage,0.7606837606837606
+timestamp_quality_station,TORRENT-EL VEDAT,max_gap_days,7.0
+timestamp_quality_station,TORREVIEJA,n_days,780.0
+timestamp_quality_station,TORREVIEJA,coverage,0.5203468979319547
+timestamp_quality_station,TORREVIEJA,max_gap_days,115.0
+timestamp_quality_station,Tarragona,n_days,648.0
+timestamp_quality_station,Tarragona,coverage,0.5874886672710788
+timestamp_quality_station,Tarragona,max_gap_days,24.0
+timestamp_quality_station,Terrassa,n_days,42.0
+timestamp_quality_station,Terrassa,coverage,0.5121951219512195
+timestamp_quality_station,Terrassa,max_gap_days,7.0
+timestamp_quality_station,VALLE,n_days,165.0
+timestamp_quality_station,VALLE,coverage,0.6790123456790124
+timestamp_quality_station,VALLE,max_gap_days,16.0
+timestamp_quality_station,VALLE DE ESCOMBRERAS,n_days,306.0
+timestamp_quality_station,VALLE DE ESCOMBRERAS,coverage,0.5795454545454546
+timestamp_quality_station,VALLE DE ESCOMBRERAS,max_gap_days,69.0
+timestamp_quality_station,VALÈNCIA - AVD. FRANCIA,n_days,706.0
+timestamp_quality_station,VALÈNCIA - AVD. FRANCIA,coverage,0.3864258347016968
+timestamp_quality_station,VALÈNCIA - AVD. FRANCIA,max_gap_days,127.0
+timestamp_quality_station,VALÈNCIA - MOLÍ DEL SOL,n_days,561.0
+timestamp_quality_station,VALÈNCIA - MOLÍ DEL SOL,coverage,0.1671134941912422
+timestamp_quality_station,VALÈNCIA - MOLÍ DEL SOL,max_gap_days,2383.0
+timestamp_quality_station,VALÈNCIA OLIVERETA,n_days,468.0
+timestamp_quality_station,VALÈNCIA OLIVERETA,coverage,0.6290322580645161
+timestamp_quality_station,VALÈNCIA OLIVERETA,max_gap_days,11.0
+timestamp_quality_station,VALÈNCIA-CENTRE,n_days,455.0
+timestamp_quality_station,VALÈNCIA-CENTRE,coverage,0.6115591397849462
+timestamp_quality_station,VALÈNCIA-CENTRE,max_gap_days,16.0
+timestamp_quality_station,VALÈNCIA-PISTA DE SILLA,n_days,717.0
+timestamp_quality_station,VALÈNCIA-PISTA DE SILLA,coverage,0.37266112266112267
+timestamp_quality_station,VALÈNCIA-PISTA DE SILLA,max_gap_days,127.0
+timestamp_quality_station,VALÈNCIA-POLITÈCNIC,n_days,726.0
+timestamp_quality_station,VALÈNCIA-POLITÈCNIC,coverage,0.3793103448275862
+timestamp_quality_station,VALÈNCIA-POLITÈCNIC,max_gap_days,127.0
+timestamp_quality_station,VILA-SECA (IES VILA-SECA),n_days,442.0
+timestamp_quality_station,VILA-SECA (IES VILA-SECA),coverage,0.5940860215053764
+timestamp_quality_station,VILA-SECA (IES VILA-SECA),max_gap_days,13.0
+timestamp_quality_station,VILAMARXANT,n_days,346.0
+timestamp_quality_station,VILAMARXANT,coverage,0.12321937321937322
+timestamp_quality_station,VILAMARXANT,max_gap_days,344.0
+timestamp_quality_station,VILLENA PARQUE FERIA,n_days,498.0
+timestamp_quality_station,VILLENA PARQUE FERIA,coverage,0.6693548387096774
+timestamp_quality_station,VILLENA PARQUE FERIA,max_gap_days,16.0
+timestamp_quality_station,Vila-seca,n_days,638.0
+timestamp_quality_station,Vila-seca,coverage,0.5784224841341795
+timestamp_quality_station,Vila-seca,max_gap_days,14.0
+timestamp_quality_station,Viladecavalls ,n_days,31.0
+timestamp_quality_station,Viladecavalls ,coverage,0.31
+timestamp_quality_station,Viladecavalls ,max_gap_days,51.0
+timestamp_quality_station,outdoors,n_days,102.0
+timestamp_quality_station,outdoors,coverage,0.51
+timestamp_quality_station,outdoors,max_gap_days,11.0
+acf_median_over_stations,lag1,median,0.6467692656114499
+acf_median_over_stations,lag2,median,0.4023954660240553
+acf_median_over_stations,lag3,median,0.29622688191511165
+acf_median_over_stations,lag4,median,0.22267327658858635
+acf_median_over_stations,lag5,median,0.1968917412388732
+acf_median_over_stations,lag6,median,0.16478406951358548
+acf_median_over_stations,lag7,median,0.1306095918882304
+acf_median_over_stations,lag8,median,0.11851831615603961
+acf_median_over_stations,lag9,median,0.11480429909926496
+acf_median_over_stations,lag10,median,0.11634181770901597
+acf_median_over_stations,lag11,median,0.11806614498316118
+acf_median_over_stations,lag12,median,0.11724331210054403
+acf_median_over_stations,lag13,median,0.13571068848630002
+acf_median_over_stations,lag14,median,0.12490693976811088
+stationarity_tests,per_station,n_stations_tested,76.0
+stationarity_tests,per_station,pct_adf_stationary,92.10526315789474
+stationarity_tests,per_station,pct_ljungbox_autocorrelated,98.68421052631578
+stationarity_tests,per_station,median_run_days,196.0
+drift_by_year,2016,median,7.073809523809524
+drift_by_year,2016,iqr,6.802380952380953
+drift_by_year,2016,share_gt25_pct,1.6025641025641024
+drift_by_year,2016,share_gt50_pct,0.0
+drift_by_year,2016,n,312.0
+drift_by_year,2017,median,8.0
+drift_by_year,2017,iqr,7.903757591093116
+drift_by_year,2017,share_gt25_pct,3.366897419760856
+drift_by_year,2017,share_gt50_pct,0.34612964128382634
+drift_by_year,2017,n,3178.0
+drift_by_year,2018,median,10.278804347826087
+drift_by_year,2018,iqr,6.9199561403508785
+drift_by_year,2018,share_gt25_pct,2.6541764246682282
+drift_by_year,2018,share_gt50_pct,0.039032006245121
+drift_by_year,2018,n,2562.0
+drift_by_year,2019,median,7.0
+drift_by_year,2019,iqr,9.833026960784313
+drift_by_year,2019,share_gt25_pct,3.3545057562524816
+drift_by_year,2019,share_gt50_pct,0.03969829297340214
+drift_by_year,2019,n,5038.0
+drift_by_year,2020,median,6.333333333333333
+drift_by_year,2020,iqr,7.596031746031746
+drift_by_year,2020,share_gt25_pct,2.940645859642793
+drift_by_year,2020,share_gt50_pct,0.10824463287028685
+drift_by_year,2020,n,5543.0
+drift_by_year,2021,median,7.111111111111111
+drift_by_year,2021,iqr,8.0
+drift_by_year,2021,share_gt25_pct,3.119889294250849
+drift_by_year,2021,share_gt50_pct,0.5661089445213234
+drift_by_year,2021,n,7949.0
+drift_by_year,2022,median,8.083333333333334
+drift_by_year,2022,iqr,7.39401
+drift_by_year,2022,share_gt25_pct,2.319915254237288
+drift_by_year,2022,share_gt50_pct,0.4872881355932204
+drift_by_year,2022,n,9440.0
+drift_by_year,2023,median,8.68
+drift_by_year,2023,iqr,7.508333333333333
+drift_by_year,2023,share_gt25_pct,2.38117298248865
+drift_by_year,2023,share_gt50_pct,0.19457055498934495
+drift_by_year,2023,n,10793.0
+drift_by_year,2024,median,8.026666666666667
+drift_by_year,2024,iqr,7.153996212121213
+drift_by_year,2024,share_gt25_pct,3.201219512195122
+drift_by_year,2024,share_gt50_pct,0.17421602787456447
+drift_by_year,2024,n,18368.0
+drift_by_year,2025,median,8.434285714285714
+drift_by_year,2025,iqr,7.432681159420289
+drift_by_year,2025,share_gt25_pct,3.264497878359265
+drift_by_year,2025,share_gt50_pct,0.13578500707213578
+drift_by_year,2025,n,17675.0
+drift_by_year,2026,median,7.5408333333333335
+drift_by_year,2026,iqr,8.812715311004785
+drift_by_year,2026,share_gt25_pct,6.660746003552398
+drift_by_year,2026,share_gt50_pct,0.7770870337477798
+drift_by_year,2026,n,4504.0
+drift_by_month,1,median,8.767833333333334
+drift_by_month,1,iqr,9.0
+drift_by_month,1,share_gt25_pct,5.483128834355829
+drift_by_month,1,share_gt50_pct,0.44734151329243355
+drift_by_month,1,n,7824.0
+drift_by_month,2,median,9.538461538461538
+drift_by_month,2,iqr,9.393452613871634
+drift_by_month,2,share_gt25_pct,6.318926974664679
+drift_by_month,2,share_gt50_pct,0.43219076005961254
+drift_by_month,2,n,6710.0
+drift_by_month,3,median,7.866666666666667
+drift_by_month,3,iqr,7.864895104895105
+drift_by_month,3,share_gt25_pct,3.994935996623998
+drift_by_month,3,share_gt50_pct,0.5767337178224785
+drift_by_month,3,n,7109.0
+drift_by_month,4,median,6.725625
+drift_by_month,4,iqr,6.395240036231883
+drift_by_month,4,share_gt25_pct,1.4640638864241349
+drift_by_month,4,share_gt50_pct,0.1774622892635315
+drift_by_month,4,n,6762.0
+drift_by_month,5,median,6.833333333333333
+drift_by_month,5,iqr,5.835714285714285
+drift_by_month,5,share_gt25_pct,0.586132952108649
+drift_by_month,5,share_gt50_pct,0.12866333095067906
+drift_by_month,5,n,6995.0
+drift_by_month,6,median,8.285238095238094
+drift_by_month,6,iqr,7.227475961538462
+drift_by_month,6,share_gt25_pct,2.3422159887798037
+drift_by_month,6,share_gt50_pct,0.09817671809256663
+drift_by_month,6,n,7130.0
+drift_by_month,7,median,8.546227272727272
+drift_by_month,7,iqr,6.828823529411766
+drift_by_month,7,share_gt25_pct,1.6200951248513673
+drift_by_month,7,share_gt50_pct,0.178359096313912
+drift_by_month,7,n,6728.0
+drift_by_month,8,median,9.666666666666666
+drift_by_month,8,iqr,7.7335714285714285
+drift_by_month,8,share_gt25_pct,2.4313372354795137
+drift_by_month,8,share_gt50_pct,0.15008254539996999
+drift_by_month,8,n,6663.0
+drift_by_month,9,median,7.055777777777777
+drift_by_month,9,iqr,6.489434523809525
+drift_by_month,9,share_gt25_pct,1.4679715302491103
+drift_by_month,9,share_gt50_pct,0.2224199288256228
+drift_by_month,9,n,6744.0
+drift_by_month,10,median,7.555050505050504
+drift_by_month,10,iqr,7.184374999999999
+drift_by_month,10,share_gt25_pct,1.9391741071428572
+drift_by_month,10,share_gt50_pct,0.12555803571428573
+drift_by_month,10,n,7168.0
+drift_by_month,11,median,7.695652173913044
+drift_by_month,11,iqr,8.119523809523809
+drift_by_month,11,share_gt25_pct,2.9294616471797505
+drift_by_month,11,share_gt50_pct,0.2698188359244507
+drift_by_month,11,n,7783.0
+drift_by_month,12,median,9.0
+drift_by_month,12,iqr,9.538523550724639
+drift_by_month,12,share_gt25_pct,6.713142266976504
+drift_by_month,12,share_gt50_pct,0.2969274464239608
+drift_by_month,12,n,7746.0
+seasonal_median,winter,pm25,8.835416666666667
+seasonal_median,winter,AOD,0.079
+seasonal_median,winter,NO2,8.371925977396552e-05
+seasonal_median,winter,CO,0.0319192005597093
+seasonal_median,winter,O3,0.1450032591577172
+seasonal_median,winter,temperature_celsius,10.793202336629264
+seasonal_median,winter,pressure_mb,1002.0093505859376
+seasonal_median,winter,wind_speed,1.9505484912395712
+seasonal_median,spring,pm25,6.695238095238095
+seasonal_median,spring,AOD,0.133
+seasonal_median,spring,NO2,8.90689280275165e-05
+seasonal_median,spring,CO,0.033367164594284654
+seasonal_median,spring,O3,0.1566676897727991
+seasonal_median,spring,temperature_celsius,15.610103861490929
+seasonal_median,spring,pressure_mb,996.65376953125
+seasonal_median,spring,wind_speed,1.5526708114751289
+seasonal_median,summer,pm25,8.5
+seasonal_median,summer,AOD,0.168
+seasonal_median,summer,NO2,8.894887104840235e-05
+seasonal_median,summer,CO,0.0307627757454708
+seasonal_median,summer,O3,0.139413422838937
+seasonal_median,summer,temperature_celsius,25.25549151102706
+seasonal_median,summer,pressure_mb,994.9849446614584
+seasonal_median,summer,wind_speed,1.6337183547263177
+seasonal_median,autumn,pm25,7.368421052631579
+seasonal_median,autumn,AOD,0.119
+seasonal_median,autumn,NO2,8.355839530134418e-05
+seasonal_median,autumn,CO,0.0302259365058208
+seasonal_median,autumn,O3,0.1319305525497665
+seasonal_median,autumn,temperature_celsius,18.60690078735354
+seasonal_median,autumn,pressure_mb,998.8488338216146
+seasonal_median,autumn,wind_speed,1.6317720303627588
+weekday_median,Monday,pm25,7.824404761904762
+weekday_median,Tuesday,pm25,8.0
+weekday_median,Wednesday,pm25,8.208333333333334
+weekday_median,Thursday,pm25,8.3028
+weekday_median,Friday,pm25,8.1875
+weekday_median,Saturday,pm25,8.028571428571428
+weekday_median,Sunday,pm25,7.733333333333333
+lead_lag_spearman,AOD,lag-3,0.09955804872953782
+lead_lag_spearman,AOD,lag-2,0.1315269240651337
+lead_lag_spearman,AOD,lag-1,0.19322659191216818
+lead_lag_spearman,AOD,lag0,0.2156153538581226
+lead_lag_spearman,AOD,lag1,0.13343254072789096
+lead_lag_spearman,AOD,lag2,0.07119107658621028
+lead_lag_spearman,AOD,lag3,0.06596720230374888
+lead_lag_spearman,NO2,lag-3,0.0637440840576625
+lead_lag_spearman,NO2,lag-2,0.06730376089856999
+lead_lag_spearman,NO2,lag-1,0.1242355139427602
+lead_lag_spearman,NO2,lag0,0.2735317713355266
+lead_lag_spearman,NO2,lag1,0.25921687060450166
+lead_lag_spearman,NO2,lag2,0.17917384788098803
+lead_lag_spearman,NO2,lag3,0.13017869545908456
+lead_lag_spearman,CO,lag-3,0.04963123657692991
+lead_lag_spearman,CO,lag-2,0.04738953641600182
+lead_lag_spearman,CO,lag-1,0.04577806095670911
+lead_lag_spearman,CO,lag0,0.04861142268923015
+lead_lag_spearman,CO,lag1,0.06982295626362406
+lead_lag_spearman,CO,lag2,0.0748655534300737
+lead_lag_spearman,CO,lag3,0.08177179922486089
+lead_lag_spearman,O3,lag-3,-0.1260924317433839
+lead_lag_spearman,O3,lag-2,-0.12977664219126278
+lead_lag_spearman,O3,lag-1,-0.1647909946446468
+lead_lag_spearman,O3,lag0,-0.20741878151755533
+lead_lag_spearman,O3,lag1,-0.2032165530637408
+lead_lag_spearman,O3,lag2,-0.15406295908851644
+lead_lag_spearman,O3,lag3,-0.12176058655553518
+lead_lag_spearman,wind_speed,lag-3,-0.0743667486170419
+lead_lag_spearman,wind_speed,lag-2,-0.06866798092149258
+lead_lag_spearman,wind_speed,lag-1,-0.12379647518950143
+lead_lag_spearman,wind_speed,lag0,-0.29198515462293123
+lead_lag_spearman,wind_speed,lag1,-0.29090305066047334
+lead_lag_spearman,wind_speed,lag2,-0.20585857229594562
+lead_lag_spearman,wind_speed,lag3,-0.14386649277669497
+lead_lag_spearman,temperature_celsius,lag-3,0.11025634115505491
+lead_lag_spearman,temperature_celsius,lag-2,0.10986044791256193
+lead_lag_spearman,temperature_celsius,lag-1,0.1307782341843322
+lead_lag_spearman,temperature_celsius,lag0,0.08630184176119776
+lead_lag_spearman,temperature_celsius,lag1,0.08464430902803159
+lead_lag_spearman,temperature_celsius,lag2,0.06464411967144211
+lead_lag_spearman,temperature_celsius,lag3,0.05319683324513369
+decision_gate,temporal_validation_and_lags,appropriate,True
+decision_gate,median_lag1_acf,value,0.6467692656114499

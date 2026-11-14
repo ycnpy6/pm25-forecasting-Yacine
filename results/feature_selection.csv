@@ -1,0 +1,6 @@
+method,n_selected,selected_features
+anova_F,10,"AOD, NO2, NO2_lag1, O3, doy_cos, pm25_lag1, pm25_roll7_mean, pressure_mb, temperature_celsius, wind_u"
+mutual_info,10,"AOD_roll7_max, NO2, doy_cos, doy_sin, pm25_lag1, pm25_roll7_mean, pressure_mb, temperature_celsius, wind_u, wind_v"
+rfe,10,"AOD, AOD_roll7_max, AOD_roll7_mean, NO2, O3, doy_cos, doy_sin, pm25_lag1, pm25_roll7_mean, temperature_celsius"
+lasso_L1,14,"AOD, AOD_diff1, CO, NO2, NO2_lag1, O3, doy_cos, doy_sin, pm25_lag1, pm25_roll7_mean, pressure_mb, temp_diff1, wind_u, wind_v"
+tree_importance,10,"AOD, CO, O3, days_since_high_aod, doy_cos, doy_sin, pm25_lag1, pm25_roll7_mean, pressure_mb, wind_u"

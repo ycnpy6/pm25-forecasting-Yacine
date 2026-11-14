@@ -1,0 +1,99 @@
+{
+ "features": [
+  "AOD",
+  "NO2",
+  "CO",
+  "O3",
+  "temperature_celsius",
+  "pressure_mb",
+  "wind_u",
+  "wind_v",
+  "doy_sin",
+  "doy_cos",
+  "AOD_lag1",
+  "AOD_lag2",
+  "AOD_lag3",
+  "NO2_lag1",
+  "AOD_diff1",
+  "temp_diff1",
+  "NO2_diff1",
+  "AOD_roll3_mean",
+  "AOD_roll7_mean",
+  "AOD_roll7_std",
+  "AOD_roll7_max",
+  "AOD_chg3",
+  "days_since_high_aod",
+  "pm25_lag1",
+  "pm25_roll7_mean"
+ ],
+ "features_nowcast": [
+  "AOD",
+  "NO2",
+  "CO",
+  "O3",
+  "temperature_celsius",
+  "pressure_mb",
+  "wind_u",
+  "wind_v",
+  "doy_sin",
+  "doy_cos",
+  "AOD_lag1",
+  "AOD_lag2",
+  "AOD_lag3",
+  "NO2_lag1",
+  "AOD_diff1",
+  "temp_diff1",
+  "NO2_diff1",
+  "AOD_roll3_mean",
+  "AOD_roll7_mean",
+  "AOD_roll7_std",
+  "AOD_roll7_max",
+  "AOD_chg3",
+  "days_since_high_aod"
+ ],
+ "families": {
+  "AOD": [
+   "AOD"
+  ],
+  "NO2_CO_O3": [
+   "NO2",
+   "CO",
+   "O3"
+  ],
+  "meteorological": [
+   "temperature_celsius",
+   "pressure_mb",
+   "wind_u",
+   "wind_v"
+  ],
+  "calendar": [
+   "doy_sin",
+   "doy_cos"
+  ],
+  "lag_rolling": [
+   "AOD_lag1",
+   "AOD_lag2",
+   "AOD_lag3",
+   "NO2_lag1",
+   "AOD_diff1",
+   "temp_diff1",
+   "NO2_diff1",
+   "AOD_roll3_mean",
+   "AOD_roll7_mean",
+   "AOD_roll7_std",
+   "AOD_roll7_max",
+   "AOD_chg3",
+   "days_since_high_aod",
+   "pm25_lag1",
+   "pm25_roll7_mean"
+  ]
+ },
+ "target": "pm25",
+ "test_start": "2025-01-01",
+ "seed": 42,
+ "high_aod_threshold": 0.25,
+ "station_retention": {
+  "min_obs": 200,
+  "min_coverage": 0.3
+ }
+}

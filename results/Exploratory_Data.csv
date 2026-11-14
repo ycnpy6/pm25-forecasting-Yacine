@@ -1,0 +1,690 @@
+section,item,metric,value
+audit_coverage,pm25.csv,rows,88041
+audit_coverage,pm25.csv,columns,5
+audit_coverage,pm25.csv,first_date,2016-11-21
+audit_coverage,pm25.csv,last_date,2026-04-16
+audit_coverage,pm25.csv,distinct_dates,3131
+audit_coverage,pm25.csv,distinct_sensor_name,125
+audit_coverage,pm25.csv,lat_min,34.29
+audit_coverage,pm25.csv,lat_max,43.689
+audit_coverage,pm25.csv,lon_min,-5.663
+audit_coverage,pm25.csv,lon_max,9.446
+audit_coverage,pm25.csv,distinct_id,
+audit_coverage,gee_features_daily.csv,rows,164208
+audit_coverage,gee_features_daily.csv,columns,13
+audit_coverage,gee_features_daily.csv,first_date,2016-11-21
+audit_coverage,gee_features_daily.csv,last_date,2026-04-06
+audit_coverage,gee_features_daily.csv,distinct_dates,2393
+audit_coverage,gee_features_daily.csv,distinct_sensor_name,
+audit_coverage,gee_features_daily.csv,lat_min,36.133
+audit_coverage,gee_features_daily.csv,lat_max,43.53
+audit_coverage,gee_features_daily.csv,lon_min,-5.663
+audit_coverage,gee_features_daily.csv,lon_max,9.136
+audit_coverage,gee_features_daily.csv,distinct_id,100
+audit_duplicates_raw,pm25.csv: full rows,count,0
+audit_duplicates_raw,pm25.csv: date + station,count,1558
+audit_duplicates_raw,pm25.csv: date + lat + lon,count,0
+audit_duplicates_raw,pm25.csv: date + lat + lon + station,count,0
+audit_duplicates_raw,gee_features_daily.csv: full rows,count,0
+audit_duplicates_raw,gee_features_daily.csv: date + id,count,0
+audit_duplicates_raw,gee_features_daily.csv: date + lat + lon,count,0
+audit_missing_raw_pct,NO2,missing_pct,11.938
+audit_missing_raw_pct,CO,missing_pct,11.938
+audit_missing_raw_pct,O3,missing_pct,12.127
+audit_independence,pm25,lag1_spearman_same_station,0.745
+audit_ids,station_names,n,125
+audit_ids,station_ids_after_disambiguation,n,127
+audit_ids,names_with_multiple_coordinates,n,7
+cleaning_counts,pm25_rows_raw,count,88041
+cleaning_counts,removed_pm25_missing,count,0
+cleaning_counts,removed_pm25_le_0,count,2093
+cleaning_counts,removed_pm25_ge_500,count,19
+cleaning_counts,pm25_rows_after_invalid_removal,count,85929
+cleaning_counts,duplicate_date_station_pairs_merged,count,567
+cleaning_counts,pm25_rows_unique_station_day,count,85362
+matching,station_days_before_matching,count,85362
+matching,lost_station_too_far_from_any_GEE_point,count,8061
+matching,lost_no_GEE_record_for_that_date,count,30389
+matching,station_days_matched,count,46912
+matching,stations_matched,count,107
+matching,gee_ids_used,count,91
+numerical_summary,pm25,count,46912.0
+numerical_summary,pm25,mean,9.405953990766058
+numerical_summary,pm25,std,9.391163695931484
+numerical_summary,pm25,min,0.0066666666666666
+numerical_summary,pm25,25%,4.681810511363636
+numerical_summary,pm25,50%,7.83
+numerical_summary,pm25,75%,12.0
+numerical_summary,pm25,max,484.9815
+numerical_summary,pm25,skewness,17.434612011654785
+numerical_summary,pm25,kurtosis,656.7637875454569
+numerical_summary,pm25,missing_pct,0.0
+numerical_summary,AOD,count,46912.0
+numerical_summary,AOD,mean,0.14764455611925875
+numerical_summary,AOD,std,0.10518550471340107
+numerical_summary,AOD,min,0.0
+numerical_summary,AOD,25%,0.079
+numerical_summary,AOD,50%,0.1275
+numerical_summary,AOD,75%,0.1933333333333333
+numerical_summary,AOD,max,5.4750000000000005
+numerical_summary,AOD,skewness,7.271022717984315
+numerical_summary,AOD,kurtosis,229.46884954755123
+numerical_summary,AOD,missing_pct,0.0
+numerical_summary,NO2,count,44505.0
+numerical_summary,NO2,mean,9.243229870516664e-05
+numerical_summary,NO2,std,2.7982911698204877e-05
+numerical_summary,NO2,min,2.268400037853421e-05
+numerical_summary,NO2,25%,7.566867646002068e-05
+numerical_summary,NO2,50%,8.717318746650306e-05
+numerical_summary,NO2,75%,0.0001023416529564
+numerical_summary,NO2,max,0.0004831401596448
+numerical_summary,NO2,skewness,2.083785095461703
+numerical_summary,NO2,kurtosis,8.61441262554018
+numerical_summary,NO2,missing_pct,5.1308833560709415
+numerical_summary,CO,count,44505.0
+numerical_summary,CO,mean,0.03172408395448325
+numerical_summary,CO,std,0.003951561506605192
+numerical_summary,CO,min,0.0130575448112163
+numerical_summary,CO,25%,0.0291589494902018
+numerical_summary,CO,50%,0.0315361411572103
+numerical_summary,CO,75%,0.0339844553173633
+numerical_summary,CO,max,0.0976130890603928
+numerical_summary,CO,skewness,1.4596237376922032
+numerical_summary,CO,kurtosis,13.403605111744834
+numerical_summary,CO,missing_pct,5.1308833560709415
+numerical_summary,O3,count,44464.0
+numerical_summary,O3,mean,0.14416644835034928
+numerical_summary,O3,std,0.014947295248167252
+numerical_summary,O3,min,0.1038994989882649
+numerical_summary,O3,25%,0.1343246043829425
+numerical_summary,O3,50%,0.1409809510712047
+numerical_summary,O3,75%,0.1518570177094393
+numerical_summary,O3,max,0.229321851252819
+numerical_summary,O3,skewness,1.1634381974982206
+numerical_summary,O3,kurtosis,2.2353905606297815
+numerical_summary,O3,missing_pct,5.218281036834925
+numerical_summary,temperature_celsius,count,46912.0
+numerical_summary,temperature_celsius,mean,18.146917753715112
+numerical_summary,temperature_celsius,std,6.437493090066198
+numerical_summary,temperature_celsius,min,-1.2790531158447038
+numerical_summary,temperature_celsius,25%,12.786276117960654
+numerical_summary,temperature_celsius,50%,18.31081638336184
+numerical_summary,temperature_celsius,75%,23.71302264531456
+numerical_summary,temperature_celsius,max,34.86583099365237
+numerical_summary,temperature_celsius,skewness,-0.10213971219759174
+numerical_summary,temperature_celsius,kurtosis,-0.9707468336754999
+numerical_summary,temperature_celsius,missing_pct,0.0
+numerical_summary,pressure_mb,count,46912.0
+numerical_summary,pressure_mb,mean,994.1128562336046
+numerical_summary,pressure_mb,std,16.541600223931255
+numerical_summary,pressure_mb,min,930.3170654296875
+numerical_summary,pressure_mb,25%,988.2117138671877
+numerical_summary,pressure_mb,50%,997.4757918294272
+numerical_summary,pressure_mb,75%,1005.2583203124999
+numerical_summary,pressure_mb,max,1033.6621761067709
+numerical_summary,pressure_mb,skewness,-1.094569480240136
+numerical_summary,pressure_mb,kurtosis,0.9204302262427695
+numerical_summary,pressure_mb,missing_pct,0.0
+numerical_summary,wind_u,count,46912.0
+numerical_summary,wind_u,mean,0.39590922361997893
+numerical_summary,wind_u,std,2.481815649327373
+numerical_summary,wind_u,min,-11.09872309366862
+numerical_summary,wind_u,25%,-0.9170570373535156
+numerical_summary,wind_u,50%,0.2469739913940429
+numerical_summary,wind_u,75%,1.7215536236763
+numerical_summary,wind_u,max,9.661650975545248
+numerical_summary,wind_u,skewness,-0.1730593373349071
+numerical_summary,wind_u,kurtosis,1.0824066034990776
+numerical_summary,wind_u,missing_pct,0.0
+numerical_summary,wind_v,count,46912.0
+numerical_summary,wind_v,mean,-0.2342417947981861
+numerical_summary,wind_v,std,1.4828722357942445
+numerical_summary,wind_v,min,-10.860048135121664
+numerical_summary,wind_v,25%,-0.801840712626775
+numerical_summary,wind_v,50%,0.02661323547363275
+numerical_summary,wind_v,75%,0.6754900614420573
+numerical_summary,wind_v,max,8.486382762591044
+numerical_summary,wind_v,skewness,-1.3526496771396568
+numerical_summary,wind_v,kurtosis,4.031166573543082
+numerical_summary,wind_v,missing_pct,0.0
+category_counts_station,CENMO1,rows,1042
+category_counts_station,CENCA1,rows,1037
+category_counts_station,MOMPEAN,rows,894
+category_counts_station,ALBALAT DELS TARONGERS,rows,798
+category_counts_station,SAGUNT CEA,rows,797
+category_counts_station,CARRANQUE,rows,784
+category_counts_station,TORREVIEJA,rows,780
+category_counts_station,ALGAR DE PALÀNCIA,rows,771
+category_counts_station,BENICASSIM,rows,770
+category_counts_station,ALCORA,rows,761
+category_counts_station,BURRIANA,rows,757
+category_counts_station,MEDITERRÁNEO,rows,742
+category_counts_station,ALMASSORA-C. P. OCHANDO,rows,739
+category_counts_station,GRANADA - NORTE,rows,734
+category_counts_station,ELDA-LACY,rows,727
+category_counts_station,VALÈNCIA-POLITÈCNIC,rows,726
+category_counts_station,QUART DE POBLET,rows,717
+category_counts_station,VALÈNCIA-PISTA DE SILLA,rows,717
+category_counts_station,LOS BARRIOS,rows,709
+category_counts_station,MADREVIEJA,rows,706
+category_counts_station,VALÈNCIA - AVD. FRANCIA,rows,706
+category_counts_station,CORTIJILLOS,rows,686
+category_counts_station,CASTELLÓ-GRAU,rows,683
+category_counts_station,GUADARRANQUE,rows,682
+category_counts_station,Mollet del Vallès,rows,673
+category_counts_station,Tarragona,rows,648
+category_counts_station,Barcelona #2,rows,647
+category_counts_station,SAN ROQUE (S6),rows,645
+category_counts_station,E4:RINCONCILLO,rows,644
+category_counts_station,HOSTELERÍA,rows,643
+category_counts_station,Vila-seca,rows,638
+category_counts_station,Perafort,rows,632
+category_counts_station,CAMPANILLAS CIFA,rows,628
+category_counts_station,FR02020,rows,625
+category_counts_station,CAMPAMENTO,rows,619
+category_counts_station,PUENTE MAYORGA,rows,617
+category_counts_station,CENSA3,rows,614
+category_counts_station,ECONOMATO,rows,614
+category_counts_station,LA LÍNEA,rows,607
+category_counts_station,SAGUNT PORT,rows,593
+category_counts_station,Barcelona #1,rows,581
+category_counts_station,SAN BASILIO,rows,578
+category_counts_station,CASTELLÓ-PENYETA,rows,570
+category_counts_station,E2: ALCORNOCALES,rows,570
+category_counts_station,VALÈNCIA - MOLÍ DEL SOL,rows,561
+category_counts_station,E7:EL ZABAL,rows,552
+category_counts_station,LA ALJORRA,rows,528
+category_counts_station,VILLENA PARQUE FERIA,rows,498
+category_counts_station,MOLINA DE SEGURA,rows,489
+category_counts_station,CASTELLO CEIP LA MARINA,rows,476
+category_counts_station,MARSEILLE ST LOUIS,rows,472
+category_counts_station,MARSEILLE 5 AVENUES,rows,471
+category_counts_station,VALÈNCIA OLIVERETA,rows,468
+category_counts_station,AIX CENTRE ECOLE ART,rows,458
+category_counts_station,Marignane,rows,456
+category_counts_station,VALÈNCIA-CENTRE,rows,455
+category_counts_station,ONTINYENT,rows,447
+category_counts_station,FR02013,rows,445
+category_counts_station,VILA-SECA (IES VILA-SECA),rows,442
+category_counts_station,Fos Les Carabins,rows,441
+category_counts_station,FR03014,rows,426
+category_counts_station,GARDANNE,rows,412
+category_counts_station,Rognac les Brets,rows,399
+category_counts_station,MARSEILLE RABATAU,rows,380
+category_counts_station,PALACIO CONGRESOS,rows,370
+category_counts_station,Barcelona - Porta - Can Dragó,rows,364
+category_counts_station,VILAMARXANT,rows,346
+category_counts_station,RONDA SUR,rows,343
+category_counts_station,VALLE DE ESCOMBRERAS,rows,306
+category_counts_station,FR03030,rows,283
+category_counts_station,Sant Andreu de la Barca,rows,279
+category_counts_station,FR03043,rows,269
+category_counts_station,ALCANTARILLA,rows,268
+category_counts_station,La Sagrera,rows,262
+category_counts_station,FR03006,rows,260
+category_counts_station,FR03029,rows,253
+category_counts_station,Santa Perpètua de Mogoda,rows,238
+category_counts_station,Granollers,rows,233
+category_counts_station,Passeig de Fabra i Puig,rows,207
+category_counts_station,COLEGIO (S1),rows,204
+category_counts_station,AIX ROY RENE,rows,198
+category_counts_station,ALUMBRES,rows,197
+category_counts_station,Armilla Center,rows,184
+category_counts_station,AMU_St Jerome_road,rows,178
+category_counts_station,AMU_St Jerome_roof,rows,175
+category_counts_station,AMU_St Jerome_building,rows,166
+category_counts_station,VALLE,rows,165
+category_counts_station,Polinya,rows,125
+category_counts_station,Estación de Franca ,rows,104
+category_counts_station,outdoors,rows,102
+category_counts_station,TORRENT-EL VEDAT,rows,89
+category_counts_station,Can Bruixa,rows,70
+category_counts_station,BARCELONA (PARC DE LA VALL D'HEBRON),rows,62
+category_counts_station,Albors - Valencia,rows,57
+category_counts_station,"Avinguda Meridiana, Sagerra",rows,52
+category_counts_station,Reus,rows,49
+category_counts_station,Barcelona #3,rows,46
+category_counts_station,"Hospitalet de Llobregat, l'",rows,46
+category_counts_station,Sant Adrià de Besòs,rows,44
+category_counts_station,Terrassa,rows,42
+category_counts_station,Martorell,rows,38
+category_counts_station,Gibraltar,rows,36
+category_counts_station,Viladecavalls ,rows,31
+category_counts_station,"C. Restoy, 51, Almeria, Spain",rows,21
+category_counts_station,Sant Francesc,rows,15
+category_counts_station,Barcelona - Camp d'en Grassot,rows,4
+category_counts_station,Rosia Road,rows,4
+category_counts_year,2016,rows,111
+category_counts_year,2017,rows,2116
+category_counts_year,2018,rows,252
+category_counts_year,2019,rows,1772
+category_counts_year,2020,rows,3251
+category_counts_year,2021,rows,4938
+category_counts_year,2022,rows,5117
+category_counts_year,2023,rows,6022
+category_counts_year,2024,rows,11251
+category_counts_year,2025,rows,10080
+category_counts_year,2026,rows,2002
+category_counts_month,1,rows,3393
+category_counts_month,2,rows,3478
+category_counts_month,3,rows,3176
+category_counts_month,4,rows,3443
+category_counts_month,5,rows,4024
+category_counts_month,6,rows,4720
+category_counts_month,7,rows,4979
+category_counts_month,8,rows,4992
+category_counts_month,9,rows,4116
+category_counts_month,10,rows,3500
+category_counts_month,11,rows,3826
+category_counts_month,12,rows,3265
+category_counts_season,summer,rows,14691
+category_counts_season,autumn,rows,11442
+category_counts_season,spring,rows,10643
+category_counts_season,winter,rows,10136
+outliers_iqr_z,pm25,iqr_low,-6.295473721590909
+outliers_iqr_z,pm25,iqr_high,22.977284232954545
+outliers_iqr_z,pm25,n_iqr_outliers,1915.0
+outliers_iqr_z,pm25,pct_iqr_outliers,4.082111186903138
+outliers_iqr_z,pm25,n_abs_z_gt_3,326.0
+outliers_iqr_z,AOD,iqr_low,-0.09249999999999996
+outliers_iqr_z,AOD,iqr_high,0.36483333333333323
+outliers_iqr_z,AOD,n_iqr_outliers,1259.0
+outliers_iqr_z,AOD,pct_iqr_outliers,2.6837482946793996
+outliers_iqr_z,AOD,n_abs_z_gt_3,337.0
+outliers_iqr_z,NO2,iqr_low,3.5659211715451714e-05
+outliers_iqr_z,NO2,iqr_high,0.00014235111770096896
+outliers_iqr_z,NO2,n_iqr_outliers,2343.0
+outliers_iqr_z,NO2,pct_iqr_outliers,5.264577013818672
+outliers_iqr_z,NO2,n_abs_z_gt_3,850.0
+outliers_iqr_z,CO,iqr_low,0.02192069074945955
+outliers_iqr_z,CO,iqr_high,0.04122271405810555
+outliers_iqr_z,CO,n_iqr_outliers,688.0
+outliers_iqr_z,CO,pct_iqr_outliers,1.5458937198067633
+outliers_iqr_z,CO,n_abs_z_gt_3,333.0
+outliers_iqr_z,O3,iqr_low,0.1080259843931973
+outliers_iqr_z,O3,iqr_high,0.1781556376991845
+outliers_iqr_z,O3,n_iqr_outliers,1484.0
+outliers_iqr_z,O3,pct_iqr_outliers,3.3375314861460956
+outliers_iqr_z,O3,n_abs_z_gt_3,549.0
+outliers_iqr_z,temperature_celsius,iqr_low,-3.6038436730702053
+outliers_iqr_z,temperature_celsius,iqr_high,40.10314243634542
+outliers_iqr_z,temperature_celsius,n_iqr_outliers,0.0
+outliers_iqr_z,temperature_celsius,pct_iqr_outliers,0.0
+outliers_iqr_z,temperature_celsius,n_abs_z_gt_3,4.0
+outliers_iqr_z,pressure_mb,iqr_low,962.6418041992192
+outliers_iqr_z,pressure_mb,iqr_high,1030.8282299804682
+outliers_iqr_z,pressure_mb,n_iqr_outliers,3316.0
+outliers_iqr_z,pressure_mb,pct_iqr_outliers,7.068553888130968
+outliers_iqr_z,pressure_mb,n_abs_z_gt_3,177.0
+outliers_iqr_z,wind_u,iqr_low,-4.874973028898239
+outliers_iqr_z,wind_u,iqr_high,5.679469615221024
+outliers_iqr_z,wind_u,n_iqr_outliers,2367.0
+outliers_iqr_z,wind_u,pct_iqr_outliers,5.0456173260572985
+outliers_iqr_z,wind_u,n_abs_z_gt_3,343.0
+outliers_iqr_z,wind_v,iqr_low,-3.0178368737300234
+outliers_iqr_z,wind_v,iqr_high,2.8914862225453057
+outliers_iqr_z,wind_v,n_iqr_outliers,2706.0
+outliers_iqr_z,wind_v,pct_iqr_outliers,5.76824693042292
+outliers_iqr_z,wind_v,n_abs_z_gt_3,910.0
+outliers_iqr_z,wind_speed,iqr_low,-2.382096736570178
+outliers_iqr_z,wind_speed,iqr_high,6.603163760147483
+outliers_iqr_z,wind_speed,n_iqr_outliers,1379.0
+outliers_iqr_z,wind_speed,pct_iqr_outliers,2.939546384720327
+outliers_iqr_z,wind_speed,n_abs_z_gt_3,549.0
+outliers_isolation_forest,predictors,flagged_rows,468
+correlation_with_pm25,wind_u,pearson,-0.087732160273493
+correlation_with_pm25,wind_u,spearman,-0.17290628024767168
+correlation_with_pm25,O3,pearson,-0.1012867653452309
+correlation_with_pm25,O3,spearman,-0.15268912810887278
+correlation_with_pm25,CO,pearson,0.042819172687313445
+correlation_with_pm25,CO,spearman,0.0381774886401387
+correlation_with_pm25,temperature_celsius,pearson,-0.01114577211000827
+correlation_with_pm25,temperature_celsius,spearman,0.06212777388697985
+correlation_with_pm25,wind_v,pearson,0.06531323911340418
+correlation_with_pm25,wind_v,spearman,0.09579439033211408
+correlation_with_pm25,pressure_mb,pearson,0.11594822286656355
+correlation_with_pm25,pressure_mb,spearman,0.17188098060881402
+correlation_with_pm25,AOD,pearson,0.09522957609119262
+correlation_with_pm25,AOD,spearman,0.18105940260911496
+correlation_with_pm25,NO2,pearson,0.16671893403544144
+correlation_with_pm25,NO2,spearman,0.24925825700803367
+vif,AOD,vif,1.2446330607409115
+vif,NO2,vif,1.0826838483615389
+vif,CO,vif,1.1246307536072255
+vif,O3,vif,1.194853022242793
+vif,temperature_celsius,vif,1.381282055426544
+vif,pressure_mb,vif,1.0792712563706628
+vif,wind_u,vif,1.1753004493886654
+vif,wind_v,vif,1.2112154616925113
+aod_pm25_corr_by_meteorology,wind_speed_low,spearman,0.1240591633568235
+aod_pm25_corr_by_meteorology,wind_speed_mid,spearman,0.08571934469509566
+aod_pm25_corr_by_meteorology,wind_speed_high,spearman,0.29691545134384034
+aod_pm25_corr_by_meteorology,temperature_celsius_low,spearman,0.18452951646428686
+aod_pm25_corr_by_meteorology,temperature_celsius_mid,spearman,0.1739379920147633
+aod_pm25_corr_by_meteorology,temperature_celsius_high,spearman,0.20776741308526356
+aod_pm25_corr_by_meteorology,pressure_mb_low,spearman,0.18833611347045756
+aod_pm25_corr_by_meteorology,pressure_mb_mid,spearman,0.20383969153086395
+aod_pm25_corr_by_meteorology,pressure_mb_high,spearman,0.13363805601601011
+aod_pm25_corr_by_season,winter,spearman,0.24071117758160132
+aod_pm25_corr_by_season,spring,spearman,0.16235508132858129
+aod_pm25_corr_by_season,summer,spearman,0.22228242787382158
+aod_pm25_corr_by_season,autumn,spearman,0.2156031123105476
+aod_pm25_corr_by_station,median,spearman,0.2125864849535311
+target_distribution,pm25,mean,9.405953990766058
+target_distribution,pm25,median,7.83
+target_distribution,pm25,std,9.391163695931484
+target_distribution,pm25,skewness,17.434612011654785
+target_distribution,pm25,kurtosis,656.7637875454569
+target_distribution,pm25,share_gt_25_pct,2.9715211459754434
+target_distribution,pm25,share_gt_50_pct,0.2621930422919509
+target_distribution,pm25,max,484.9815
+station_retention,rule,min_obs,200
+station_retention,rule,min_coverage,0.3
+station_retention,kept,stations,72
+station_retention,kept,rows,41935
+missingness_dev_by_variable,AOD_chg3,missing_pct,58.2
+missingness_dev_by_variable,NO2_diff1,missing_pct,57.84
+missingness_dev_by_variable,temp_diff1,missing_pct,55.08
+missingness_dev_by_variable,AOD_diff1,missing_pct,55.08
+missingness_dev_by_variable,AOD_lag3,missing_pct,39.47
+missingness_dev_by_variable,AOD_lag2,missing_pct,38.9
+missingness_dev_by_variable,NO2_lag1,missing_pct,38.45
+missingness_dev_by_variable,AOD_roll3_mean,missing_pct,34.92
+missingness_dev_by_variable,AOD_lag1,missing_pct,34.43
+missingness_dev_by_variable,AOD_roll7_std,missing_pct,18.55
+missingness_dev_by_variable,AOD_roll7_max,missing_pct,18.55
+missingness_dev_by_variable,AOD_roll7_mean,missing_pct,18.55
+missingness_dev_by_variable,pm25_lag1,missing_pct,10.23
+missingness_dev_by_variable,O3,missing_pct,5.95
+missingness_dev_by_variable,CO,missing_pct,5.84
+missingness_dev_by_variable,NO2,missing_pct,5.84
+missingness_dev_by_variable,pm25_roll7_mean,missing_pct,4.78
+missingness_dev_by_variable,days_since_high_aod,missing_pct,3.05
+missingness_dev_by_variable,wind_v,missing_pct,0.0
+missingness_dev_by_variable,doy_sin,missing_pct,0.0
+missingness_dev_by_variable,pressure_mb,missing_pct,0.0
+missingness_dev_by_variable,temperature_celsius,missing_pct,0.0
+missingness_dev_by_variable,AOD,missing_pct,0.0
+missingness_dev_by_variable,wind_u,missing_pct,0.0
+missingness_dev_by_variable,doy_cos,missing_pct,0.0
+missingness_gas_by_month,NO2_1,missing_pct,5.4
+missingness_gas_by_month,CO_1,missing_pct,5.4
+missingness_gas_by_month,O3_1,missing_pct,5.4
+missingness_gas_by_month,NO2_2,missing_pct,4.3
+missingness_gas_by_month,CO_2,missing_pct,4.3
+missingness_gas_by_month,O3_2,missing_pct,4.3
+missingness_gas_by_month,NO2_3,missing_pct,8.8
+missingness_gas_by_month,CO_3,missing_pct,8.8
+missingness_gas_by_month,O3_3,missing_pct,8.8
+missingness_gas_by_month,NO2_4,missing_pct,7.4
+missingness_gas_by_month,CO_4,missing_pct,7.4
+missingness_gas_by_month,O3_4,missing_pct,7.4
+missingness_gas_by_month,NO2_5,missing_pct,6.2
+missingness_gas_by_month,CO_5,missing_pct,6.2
+missingness_gas_by_month,O3_5,missing_pct,6.2
+missingness_gas_by_month,NO2_6,missing_pct,9.3
+missingness_gas_by_month,CO_6,missing_pct,9.3
+missingness_gas_by_month,O3_6,missing_pct,9.3
+missingness_gas_by_month,NO2_7,missing_pct,5.9
+missingness_gas_by_month,CO_7,missing_pct,5.9
+missingness_gas_by_month,O3_7,missing_pct,5.9
+missingness_gas_by_month,NO2_8,missing_pct,0.2
+missingness_gas_by_month,CO_8,missing_pct,0.2
+missingness_gas_by_month,O3_8,missing_pct,0.2
+missingness_gas_by_month,NO2_9,missing_pct,3.4
+missingness_gas_by_month,CO_9,missing_pct,3.4
+missingness_gas_by_month,O3_9,missing_pct,4.5
+missingness_gas_by_month,NO2_10,missing_pct,10.1
+missingness_gas_by_month,CO_10,missing_pct,10.1
+missingness_gas_by_month,O3_10,missing_pct,10.1
+missingness_gas_by_month,NO2_11,missing_pct,6.1
+missingness_gas_by_month,CO_11,missing_pct,6.1
+missingness_gas_by_month,O3_11,missing_pct,6.1
+missingness_gas_by_month,NO2_12,missing_pct,4.5
+missingness_gas_by_month,CO_12,missing_pct,4.5
+missingness_gas_by_month,O3_12,missing_pct,4.5
+missingness_gas_by_year,NO2_2016,missing_pct,100.0
+missingness_gas_by_year,CO_2016,missing_pct,100.0
+missingness_gas_by_year,O3_2016,missing_pct,100.0
+missingness_gas_by_year,NO2_2017,missing_pct,100.0
+missingness_gas_by_year,CO_2017,missing_pct,100.0
+missingness_gas_by_year,O3_2017,missing_pct,100.0
+missingness_gas_by_year,NO2_2018,missing_pct,69.6
+missingness_gas_by_year,CO_2018,missing_pct,69.6
+missingness_gas_by_year,O3_2018,missing_pct,87.1
+missingness_gas_by_year,NO2_2019,missing_pct,0.0
+missingness_gas_by_year,CO_2019,missing_pct,0.0
+missingness_gas_by_year,O3_2019,missing_pct,0.0
+missingness_gas_by_year,NO2_2020,missing_pct,0.0
+missingness_gas_by_year,CO_2020,missing_pct,0.0
+missingness_gas_by_year,O3_2020,missing_pct,0.0
+missingness_gas_by_year,NO2_2021,missing_pct,0.0
+missingness_gas_by_year,CO_2021,missing_pct,0.0
+missingness_gas_by_year,O3_2021,missing_pct,0.0
+missingness_gas_by_year,NO2_2022,missing_pct,0.0
+missingness_gas_by_year,CO_2022,missing_pct,0.0
+missingness_gas_by_year,O3_2022,missing_pct,0.0
+missingness_gas_by_year,NO2_2023,missing_pct,0.0
+missingness_gas_by_year,CO_2023,missing_pct,0.0
+missingness_gas_by_year,O3_2023,missing_pct,0.0
+missingness_gas_by_year,NO2_2024,missing_pct,0.0
+missingness_gas_by_year,CO_2024,missing_pct,0.0
+missingness_gas_by_year,O3_2024,missing_pct,0.0
+missingness_gas_by_station,NO2_AIX CENTRE ECOLE ART,missing_pct,0.0
+missingness_gas_by_station,CO_AIX CENTRE ECOLE ART,missing_pct,0.0
+missingness_gas_by_station,O3_AIX CENTRE ECOLE ART,missing_pct,0.0
+missingness_gas_by_station,NO2_ALBALAT DELS TARONGERS,missing_pct,19.9
+missingness_gas_by_station,CO_ALBALAT DELS TARONGERS,missing_pct,19.9
+missingness_gas_by_station,O3_ALBALAT DELS TARONGERS,missing_pct,20.1
+missingness_gas_by_station,NO2_ALCANTARILLA,missing_pct,0.0
+missingness_gas_by_station,CO_ALCANTARILLA,missing_pct,0.0
+missingness_gas_by_station,O3_ALCANTARILLA,missing_pct,0.0
+missingness_gas_by_station,NO2_ALCORA,missing_pct,20.4
+missingness_gas_by_station,CO_ALCORA,missing_pct,20.4
+missingness_gas_by_station,O3_ALCORA,missing_pct,20.8
+missingness_gas_by_station,NO2_ALGAR DE PALÀNCIA,missing_pct,20.8
+missingness_gas_by_station,CO_ALGAR DE PALÀNCIA,missing_pct,20.8
+missingness_gas_by_station,O3_ALGAR DE PALÀNCIA,missing_pct,21.0
+missingness_gas_by_station,NO2_ALMASSORA-C. P. OCHANDO,missing_pct,21.1
+missingness_gas_by_station,CO_ALMASSORA-C. P. OCHANDO,missing_pct,21.1
+missingness_gas_by_station,O3_ALMASSORA-C. P. OCHANDO,missing_pct,21.4
+missingness_gas_by_station,NO2_BENICASSIM,missing_pct,20.6
+missingness_gas_by_station,CO_BENICASSIM,missing_pct,20.6
+missingness_gas_by_station,O3_BENICASSIM,missing_pct,21.0
+missingness_gas_by_station,NO2_BURRIANA,missing_pct,19.8
+missingness_gas_by_station,CO_BURRIANA,missing_pct,19.8
+missingness_gas_by_station,O3_BURRIANA,missing_pct,20.2
+missingness_gas_by_station,NO2_Barcelona #1,missing_pct,0.0
+missingness_gas_by_station,CO_Barcelona #1,missing_pct,0.0
+missingness_gas_by_station,O3_Barcelona #1,missing_pct,0.0
+missingness_gas_by_station,NO2_Barcelona #2,missing_pct,0.0
+missingness_gas_by_station,CO_Barcelona #2,missing_pct,0.0
+missingness_gas_by_station,O3_Barcelona #2,missing_pct,0.0
+missingness_gas_by_station,NO2_Barcelona - Porta - Can Dragó,missing_pct,0.0
+missingness_gas_by_station,CO_Barcelona - Porta - Can Dragó,missing_pct,0.0
+missingness_gas_by_station,O3_Barcelona - Porta - Can Dragó,missing_pct,0.0
+missingness_gas_by_station,NO2_CAMPAMENTO,missing_pct,0.0
+missingness_gas_by_station,CO_CAMPAMENTO,missing_pct,0.0
+missingness_gas_by_station,O3_CAMPAMENTO,missing_pct,0.0
+missingness_gas_by_station,NO2_CAMPANILLAS CIFA,missing_pct,0.0
+missingness_gas_by_station,CO_CAMPANILLAS CIFA,missing_pct,0.0
+missingness_gas_by_station,O3_CAMPANILLAS CIFA,missing_pct,0.0
+missingness_gas_by_station,NO2_CARRANQUE,missing_pct,0.0
+missingness_gas_by_station,CO_CARRANQUE,missing_pct,0.0
+missingness_gas_by_station,O3_CARRANQUE,missing_pct,0.0
+missingness_gas_by_station,NO2_CASTELLO CEIP LA MARINA,missing_pct,0.0
+missingness_gas_by_station,CO_CASTELLO CEIP LA MARINA,missing_pct,0.0
+missingness_gas_by_station,O3_CASTELLO CEIP LA MARINA,missing_pct,0.0
+missingness_gas_by_station,NO2_CASTELLÓ-GRAU,missing_pct,0.0
+missingness_gas_by_station,CO_CASTELLÓ-GRAU,missing_pct,0.0
+missingness_gas_by_station,O3_CASTELLÓ-GRAU,missing_pct,0.0
+missingness_gas_by_station,NO2_CASTELLÓ-PENYETA,missing_pct,0.0
+missingness_gas_by_station,CO_CASTELLÓ-PENYETA,missing_pct,0.0
+missingness_gas_by_station,O3_CASTELLÓ-PENYETA,missing_pct,0.0
+missingness_gas_by_station,NO2_CENCA1,missing_pct,0.0
+missingness_gas_by_station,CO_CENCA1,missing_pct,0.0
+missingness_gas_by_station,O3_CENCA1,missing_pct,0.0
+missingness_gas_by_station,NO2_CENMO1,missing_pct,0.0
+missingness_gas_by_station,CO_CENMO1,missing_pct,0.0
+missingness_gas_by_station,O3_CENMO1,missing_pct,0.0
+missingness_gas_by_station,NO2_CENSA3,missing_pct,0.0
+missingness_gas_by_station,CO_CENSA3,missing_pct,0.0
+missingness_gas_by_station,O3_CENSA3,missing_pct,0.0
+missingness_gas_by_station,NO2_CORTIJILLOS,missing_pct,0.0
+missingness_gas_by_station,CO_CORTIJILLOS,missing_pct,0.0
+missingness_gas_by_station,O3_CORTIJILLOS,missing_pct,0.0
+missingness_gas_by_station,NO2_E2: ALCORNOCALES,missing_pct,0.0
+missingness_gas_by_station,CO_E2: ALCORNOCALES,missing_pct,0.0
+missingness_gas_by_station,O3_E2: ALCORNOCALES,missing_pct,0.0
+missingness_gas_by_station,NO2_E4:RINCONCILLO,missing_pct,0.0
+missingness_gas_by_station,CO_E4:RINCONCILLO,missing_pct,0.0
+missingness_gas_by_station,O3_E4:RINCONCILLO,missing_pct,0.0
+missingness_gas_by_station,NO2_E7:EL ZABAL,missing_pct,0.0
+missingness_gas_by_station,CO_E7:EL ZABAL,missing_pct,0.0
+missingness_gas_by_station,O3_E7:EL ZABAL,missing_pct,0.0
+missingness_gas_by_station,NO2_ECONOMATO,missing_pct,0.0
+missingness_gas_by_station,CO_ECONOMATO,missing_pct,0.0
+missingness_gas_by_station,O3_ECONOMATO,missing_pct,0.0
+missingness_gas_by_station,NO2_ELDA-LACY,missing_pct,20.6
+missingness_gas_by_station,CO_ELDA-LACY,missing_pct,20.6
+missingness_gas_by_station,O3_ELDA-LACY,missing_pct,21.0
+missingness_gas_by_station,NO2_FR02013,missing_pct,0.0
+missingness_gas_by_station,CO_FR02013,missing_pct,0.0
+missingness_gas_by_station,O3_FR02013,missing_pct,0.0
+missingness_gas_by_station,NO2_FR02020,missing_pct,0.0
+missingness_gas_by_station,CO_FR02020,missing_pct,0.0
+missingness_gas_by_station,O3_FR02020,missing_pct,0.0
+missingness_gas_by_station,NO2_FR03014,missing_pct,0.0
+missingness_gas_by_station,CO_FR03014,missing_pct,0.0
+missingness_gas_by_station,O3_FR03014,missing_pct,0.0
+missingness_gas_by_station,NO2_FR03030,missing_pct,55.5
+missingness_gas_by_station,CO_FR03030,missing_pct,55.5
+missingness_gas_by_station,O3_FR03030,missing_pct,56.2
+missingness_gas_by_station,NO2_Fos Les Carabins,missing_pct,0.0
+missingness_gas_by_station,CO_Fos Les Carabins,missing_pct,0.0
+missingness_gas_by_station,O3_Fos Les Carabins,missing_pct,0.0
+missingness_gas_by_station,NO2_GARDANNE,missing_pct,0.0
+missingness_gas_by_station,CO_GARDANNE,missing_pct,0.0
+missingness_gas_by_station,O3_GARDANNE,missing_pct,0.0
+missingness_gas_by_station,NO2_GRANADA - NORTE,missing_pct,0.0
+missingness_gas_by_station,CO_GRANADA - NORTE,missing_pct,0.0
+missingness_gas_by_station,O3_GRANADA - NORTE,missing_pct,0.0
+missingness_gas_by_station,NO2_GUADARRANQUE,missing_pct,0.0
+missingness_gas_by_station,CO_GUADARRANQUE,missing_pct,0.0
+missingness_gas_by_station,O3_GUADARRANQUE,missing_pct,0.0
+missingness_gas_by_station,NO2_HOSTELERÍA,missing_pct,0.0
+missingness_gas_by_station,CO_HOSTELERÍA,missing_pct,0.0
+missingness_gas_by_station,O3_HOSTELERÍA,missing_pct,0.0
+missingness_gas_by_station,NO2_LA ALJORRA,missing_pct,0.0
+missingness_gas_by_station,CO_LA ALJORRA,missing_pct,0.0
+missingness_gas_by_station,O3_LA ALJORRA,missing_pct,0.0
+missingness_gas_by_station,NO2_LA LÍNEA,missing_pct,0.0
+missingness_gas_by_station,CO_LA LÍNEA,missing_pct,0.0
+missingness_gas_by_station,O3_LA LÍNEA,missing_pct,0.0
+missingness_gas_by_station,NO2_LOS BARRIOS,missing_pct,0.0
+missingness_gas_by_station,CO_LOS BARRIOS,missing_pct,0.0
+missingness_gas_by_station,O3_LOS BARRIOS,missing_pct,0.0
+missingness_gas_by_station,NO2_MADREVIEJA,missing_pct,0.0
+missingness_gas_by_station,CO_MADREVIEJA,missing_pct,0.0
+missingness_gas_by_station,O3_MADREVIEJA,missing_pct,0.0
+missingness_gas_by_station,NO2_MARSEILLE 5 AVENUES,missing_pct,0.0
+missingness_gas_by_station,CO_MARSEILLE 5 AVENUES,missing_pct,0.0
+missingness_gas_by_station,O3_MARSEILLE 5 AVENUES,missing_pct,0.0
+missingness_gas_by_station,NO2_MARSEILLE RABATAU,missing_pct,0.0
+missingness_gas_by_station,CO_MARSEILLE RABATAU,missing_pct,0.0
+missingness_gas_by_station,O3_MARSEILLE RABATAU,missing_pct,0.0
+missingness_gas_by_station,NO2_MARSEILLE ST LOUIS,missing_pct,0.0
+missingness_gas_by_station,CO_MARSEILLE ST LOUIS,missing_pct,0.0
+missingness_gas_by_station,O3_MARSEILLE ST LOUIS,missing_pct,0.0
+missingness_gas_by_station,NO2_MEDITERRÁNEO,missing_pct,0.0
+missingness_gas_by_station,CO_MEDITERRÁNEO,missing_pct,0.0
+missingness_gas_by_station,O3_MEDITERRÁNEO,missing_pct,0.0
+missingness_gas_by_station,NO2_MOLINA DE SEGURA,missing_pct,0.0
+missingness_gas_by_station,CO_MOLINA DE SEGURA,missing_pct,0.0
+missingness_gas_by_station,O3_MOLINA DE SEGURA,missing_pct,0.0
+missingness_gas_by_station,NO2_MOMPEAN,missing_pct,0.0
+missingness_gas_by_station,CO_MOMPEAN,missing_pct,0.0
+missingness_gas_by_station,O3_MOMPEAN,missing_pct,0.0
+missingness_gas_by_station,NO2_Marignane,missing_pct,0.0
+missingness_gas_by_station,CO_Marignane,missing_pct,0.0
+missingness_gas_by_station,O3_Marignane,missing_pct,0.0
+missingness_gas_by_station,NO2_Mollet del Vallès,missing_pct,0.0
+missingness_gas_by_station,CO_Mollet del Vallès,missing_pct,0.0
+missingness_gas_by_station,O3_Mollet del Vallès,missing_pct,0.0
+missingness_gas_by_station,NO2_PALACIO CONGRESOS,missing_pct,0.0
+missingness_gas_by_station,CO_PALACIO CONGRESOS,missing_pct,0.0
+missingness_gas_by_station,O3_PALACIO CONGRESOS,missing_pct,0.0
+missingness_gas_by_station,NO2_PUENTE MAYORGA,missing_pct,0.0
+missingness_gas_by_station,CO_PUENTE MAYORGA,missing_pct,0.0
+missingness_gas_by_station,O3_PUENTE MAYORGA,missing_pct,0.0
+missingness_gas_by_station,NO2_Perafort,missing_pct,0.0
+missingness_gas_by_station,CO_Perafort,missing_pct,0.0
+missingness_gas_by_station,O3_Perafort,missing_pct,0.0
+missingness_gas_by_station,NO2_QUART DE POBLET,missing_pct,21.5
+missingness_gas_by_station,CO_QUART DE POBLET,missing_pct,21.5
+missingness_gas_by_station,O3_QUART DE POBLET,missing_pct,21.9
+missingness_gas_by_station,NO2_RONDA SUR,missing_pct,0.0
+missingness_gas_by_station,CO_RONDA SUR,missing_pct,0.0
+missingness_gas_by_station,O3_RONDA SUR,missing_pct,0.0
+missingness_gas_by_station,NO2_Rognac les Brets,missing_pct,0.0
+missingness_gas_by_station,CO_Rognac les Brets,missing_pct,0.0
+missingness_gas_by_station,O3_Rognac les Brets,missing_pct,0.0
+missingness_gas_by_station,NO2_SAGUNT CEA,missing_pct,19.8
+missingness_gas_by_station,CO_SAGUNT CEA,missing_pct,19.8
+missingness_gas_by_station,O3_SAGUNT CEA,missing_pct,20.2
+missingness_gas_by_station,NO2_SAGUNT PORT,missing_pct,0.0
+missingness_gas_by_station,CO_SAGUNT PORT,missing_pct,0.0
+missingness_gas_by_station,O3_SAGUNT PORT,missing_pct,0.0
+missingness_gas_by_station,NO2_SAN BASILIO,missing_pct,0.0
+missingness_gas_by_station,CO_SAN BASILIO,missing_pct,0.0
+missingness_gas_by_station,O3_SAN BASILIO,missing_pct,0.0
+missingness_gas_by_station,NO2_SAN ROQUE (S6),missing_pct,0.0
+missingness_gas_by_station,CO_SAN ROQUE (S6),missing_pct,0.0
+missingness_gas_by_station,O3_SAN ROQUE (S6),missing_pct,0.0
+missingness_gas_by_station,NO2_TORREVIEJA,missing_pct,0.0
+missingness_gas_by_station,CO_TORREVIEJA,missing_pct,0.0
+missingness_gas_by_station,O3_TORREVIEJA,missing_pct,0.0
+missingness_gas_by_station,NO2_Tarragona,missing_pct,0.0
+missingness_gas_by_station,CO_Tarragona,missing_pct,0.0
+missingness_gas_by_station,O3_Tarragona,missing_pct,0.0
+missingness_gas_by_station,NO2_VALLE DE ESCOMBRERAS,missing_pct,0.0
+missingness_gas_by_station,CO_VALLE DE ESCOMBRERAS,missing_pct,0.0
+missingness_gas_by_station,O3_VALLE DE ESCOMBRERAS,missing_pct,0.0
+missingness_gas_by_station,NO2_VALÈNCIA - AVD. FRANCIA,missing_pct,0.6
+missingness_gas_by_station,CO_VALÈNCIA - AVD. FRANCIA,missing_pct,0.6
+missingness_gas_by_station,O3_VALÈNCIA - AVD. FRANCIA,missing_pct,1.0
+missingness_gas_by_station,NO2_VALÈNCIA OLIVERETA,missing_pct,0.0
+missingness_gas_by_station,CO_VALÈNCIA OLIVERETA,missing_pct,0.0
+missingness_gas_by_station,O3_VALÈNCIA OLIVERETA,missing_pct,0.0
+missingness_gas_by_station,NO2_VALÈNCIA-CENTRE,missing_pct,0.0
+missingness_gas_by_station,CO_VALÈNCIA-CENTRE,missing_pct,0.0
+missingness_gas_by_station,O3_VALÈNCIA-CENTRE,missing_pct,0.0
+missingness_gas_by_station,NO2_VALÈNCIA-PISTA DE SILLA,missing_pct,21.5
+missingness_gas_by_station,CO_VALÈNCIA-PISTA DE SILLA,missing_pct,21.5
+missingness_gas_by_station,O3_VALÈNCIA-PISTA DE SILLA,missing_pct,21.9
+missingness_gas_by_station,NO2_VALÈNCIA-POLITÈCNIC,missing_pct,20.9
+missingness_gas_by_station,CO_VALÈNCIA-POLITÈCNIC,missing_pct,20.9
+missingness_gas_by_station,O3_VALÈNCIA-POLITÈCNIC,missing_pct,21.3
+missingness_gas_by_station,NO2_VILA-SECA (IES VILA-SECA),missing_pct,0.0
+missingness_gas_by_station,CO_VILA-SECA (IES VILA-SECA),missing_pct,0.0
+missingness_gas_by_station,O3_VILA-SECA (IES VILA-SECA),missing_pct,0.0
+missingness_gas_by_station,NO2_VILLENA PARQUE FERIA,missing_pct,0.0
+missingness_gas_by_station,CO_VILLENA PARQUE FERIA,missing_pct,0.0
+missingness_gas_by_station,O3_VILLENA PARQUE FERIA,missing_pct,0.0
+missingness_gas_by_station,NO2_Vila-seca,missing_pct,0.0
+missingness_gas_by_station,CO_Vila-seca,missing_pct,0.0
+missingness_gas_by_station,O3_Vila-seca,missing_pct,0.0
+knn_imputer_check,stability,knn_justified,False
+outlier_treatment_comparison,ElasticNet | no treatment,MAE,3.33
+outlier_treatment_comparison,ElasticNet | no treatment,RMSE,8.969
+outlier_treatment_comparison,ElasticNet | no treatment,R2,0.244
+outlier_treatment_comparison,ElasticNet | cap training target at p99.5,MAE,3.513
+outlier_treatment_comparison,ElasticNet | cap training target at p99.5,RMSE,9.103
+outlier_treatment_comparison,ElasticNet | cap training target at p99.5,R2,0.214
+outlier_treatment_comparison,HistGradientBoosting | no treatment,MAE,3.284
+outlier_treatment_comparison,HistGradientBoosting | no treatment,RMSE,8.931
+outlier_treatment_comparison,HistGradientBoosting | no treatment,R2,0.245
+outlier_treatment_comparison,HistGradientBoosting | cap training target at p99.5,MAE,3.118
+outlier_treatment_comparison,HistGradientBoosting | cap training target at p99.5,RMSE,8.796
+outlier_treatment_comparison,HistGradientBoosting | cap training target at p99.5,R2,0.275
+outlier_treatment_decision,cap_target_p99.5,adopted,False
